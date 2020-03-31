@@ -15,3 +15,4 @@ cd build
 cmake ..
 cmake --build .
 ```
+or with debug:` cmake -DCMAKE_BUILD_TYPE=Debug .. `

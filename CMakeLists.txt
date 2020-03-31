@@ -9,6 +9,8 @@ include_directories(/usr/include/readline)
 add_subdirectory(libs/yaml-cpp)
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
+# set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -Wall")
+# set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -Wall")
 
 add_executable(
     papr
